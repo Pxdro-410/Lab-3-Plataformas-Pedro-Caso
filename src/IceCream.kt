@@ -9,7 +9,7 @@ class IceCream(name: String, price: Double): Food(name, price), Dessert {
     override fun eat(): String {
             val comerHelado = "El helado se debe comer lo mas rapido posible, al ser tan frio se derrite " +
                     "en cuestion de minutos, por lo tanto, se debe lamer uniformemente y constantemente " +
-                    "para evitar que se derrita."
+                    "para evitar que se derrita facilmente."
 
         return comerHelado
     }
